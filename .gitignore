@@ -1,0 +1,39 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+*.nupkg
+publish/
+
+# Terraform (keep .terraform.lock.hcl, never commit state or variable values)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+
+# Node / web
+node_modules/
+dist/
+.vite/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+appsettings.Local.json
+secrets.json
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+Thumbs.db
+.DS_Store
